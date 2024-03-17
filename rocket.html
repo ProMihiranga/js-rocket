@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Javascript Rocket Sequence</title>
+	<link rel="stylesheet" type="text/css" href="css/rocketstyle.css">
+	<script type="text/javascript" src="js/rocket.js"></script>
+</head>
+<body class="body-state1">
+
+<div class="left">
+		<div class="interface state1"><h1>Rocket Launch</h1>
+		<a href="#" class="button" onclick="changeState(2);">Launch</a>
+		</div>
+
+		<div class="interface state2"><h1 id="countdown">10</h1>
+		<a href="#"  onclick="changeState(1);">Abort</a>
+		</div>
+
+		<div class="interface state3"><h1>Lift Off!</h1></div>
+		
+		<div class="interface state4"><h1>Well Done!</h1>
+		<a href="#" class="button" onclick="changeState(1);">Start Over</a>
+		</div>
+
+
+		<div class="interface state5"><h1>Oh No!</h1>
+		<a href="#" class="button" onclick="changeState(1);">Try Again</a>
+		</div>
+
+
+</div>
+
+
+<div class="right">
+		<div class="ground"></div>
+		<div class="rocket"></div>
+		<div class="nervous" id="nervous"></div>
+		<div class="cant-wait" id="cant-wait"></div>
+</div>
+
+
+</body>
+</html>

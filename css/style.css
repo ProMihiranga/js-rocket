@@ -1,0 +1,15 @@
+body{
+	background: tomato;
+}
+
+.enginestate1{
+	display: none;
+}
+
+.enginestate2{
+	display: none;
+}
+
+
+.link1 .enginestate1{display: block}
+.link2 .enginestate2{display: block}
