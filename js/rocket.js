@@ -71,7 +71,7 @@ var changeState= function(state) {
 
 
 
-				if (randomNumber>9){
+				if (randomNumber>5){
 					console.log('Congratulations Take Off Success!')
 					//success state Well Done!
 						changeState(4);
